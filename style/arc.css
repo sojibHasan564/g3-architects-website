@@ -171,6 +171,16 @@ banner {
 .sponsor-companies img {
   filter: grayscale(100%);
 }
+/* footer style */
+.footer-box {
+  background-color: #fff4e7;
+  padding: 23px 23px;
+  margin: 240px 216px;
+  border-radius: 7px;
+}
+.footer-description {
+  text-align: center;
+}
 /* responsive media quarey */
 @media screen and(max-width:576px) {
   .navbar,
