@@ -117,6 +117,19 @@ banner {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+#badge {
+  padding: 45px 42px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: -100px;
+}
+#year {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.feature-archited img {
+  width: 100%;
+}
 /* some factd */
 .facts-container {
   display: grid;
@@ -161,7 +174,7 @@ banner {
 /* responsive media quarey */
 @media screen and(max-width:576px) {
   .navbar,
-  .nav-link .team {
+  .nav-link .team .features {
     flex-direction: column;
   }
   .team-img-container,
@@ -171,11 +184,15 @@ banner {
   .our-features {
     margin-left: 20px;
   }
+  #badge {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 }
 
-/* medium device */
+/* medium size device */
 @media screen and(min-width:576px) and (max-width: 992px) {
-  .team {
+  .team .features {
     flex-direction: column;
   }
   .facts-container .sponsor-companies {
@@ -190,5 +207,9 @@ banner {
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
+  }
+  #badge {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
